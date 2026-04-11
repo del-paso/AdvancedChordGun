@@ -4,7 +4,7 @@ An expanded chord composition tool for REAPER, inspired by Pandabot's ChordGun.
 50+ chord types, intelligent next-chord suggestions, and humanized arpeggiation
 for sketching out complex harmony fast.
 
-![Advanced ChordGun interface](screenshot.png)
+![Advanced ChordGun interface](Screenshot.png)
 
 ## Features
 
