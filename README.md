@@ -31,7 +31,7 @@ for sketching out complex harmony fast.
 2. In REAPER, go to **Actions → Show action list**
 3. Click **New action → Load ReaScript...**
 4. Select the downloaded file
-5. Run it from the action list (search "ChordGun")
+5. Run it from the action list (search "AdvancedChordGun")
 
 ## Keyboard Shortcuts
 
