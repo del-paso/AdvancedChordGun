@@ -27,11 +27,16 @@ for sketching out complex harmony fast.
 
 ## Installation
 
-1. Download `AdvancedChordGun.lua` from this repo
-2. In REAPER, go to **Actions → Show action list**
-3. Click **New action → Load ReaScript...**
+### Option 1: ReaPack (recommended)
+1. In REAPER, go to **Extensions → ReaPack → Import repositories...**
+2. Paste this URL: `https://raw.githubusercontent.com/del-paso/AdvancedChordGun/main/index.xml`
+3. Go to **Extensions → ReaPack → Browse packages**, search "Advanced ChordGun", and click install
+
+### Option 2: Manual install
+1. Click `AdvancedChordGun.lua` in this repo
+2. Click the **"Download raw file"** button (the download icon in the top-right of the file view) — **don't right-click and "Save As" the page itself**
+3. In REAPER, go to **Actions → Show action list → New action → Load ReaScript...**
 4. Select the downloaded file
-5. Run it from the action list (search "AdvancedChordGun")
 
 ## Keyboard Shortcuts
 
