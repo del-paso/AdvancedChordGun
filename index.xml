@@ -8,28 +8,21 @@
 
 An expanded chord composition tool for REAPER inspired by Pandabot's ChordGun.
 50+ chord types, intelligent next-chord suggestions, trailing chord history,
-and humanized arpeggiation for sketching out complex harmony fast.
+humanized arpeggiation, chord finder with piano, and drag-to-assign key bindings.
 
 ## Features
 
-- 50+ chord types: triads, 6ths, 7ths, 9ths, 11ths, 13ths, altered dominants
-  (7b9, 7#9, 7alt, 7b5b9, 7#5#9), half-diminished, m(maj7), maj7#5, and extended
-  jazz voicings up to 10 notes
-- Full scrollable chord grid showing every chord type on every scale degree at
-  once, organized by category
-- Next-chord suggestion engine that lights up the grid in green/yellow/orange
-  based on shared pitch classes and root movement quality
-- Current chord highlight in gold so you always know where you are
-- Trailing chord history showing your harmonic path through the grid (toggleable)
-- Arpeggiate mode with adjustable delay (10-120ms)
-- Round Robin humanize toggle for randomized per-note timing and velocity
-- Per-degree key bindings - assign any chord type to each number key (1-7)
-- 7 modes supported: Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian
-- Live MIDI preview through whatever instrument you have armed
-- Insert mode drops chords directly into the active MIDI editor at the cursor
-- Inversion control (-4 to +4)
-- Dropdowns for root, scale, octave, and velocity
-- Clickable note buttons for every note in the played chord
+- 50+ chord types: triads, 6ths, 7ths, 9ths, 11ths, 13ths, altered dominants, and extended jazz voicings up to 10 notes
+- Full scrollable chord grid showing every chord type on every scale degree at once, organized by category
+- Next-chord suggestion engine that lights up the grid based on harmonic compatibility
+- Current chord gold highlight and trailing chord history showing your harmonic path
+- Arpeggiate mode with adjustable delay and Round Robin humanize for organic timing/velocity
+- Per-degree key bindings with independent octave offset and inversion per degree
+- Drag chords from the grid to degree slots to assign them to number keys
+- 3-octave chord finder piano for identifying chords by clicking notes
+- 7 modes: Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian
+- Adjustable text size (S/M/L/XL)
+- Window size and position persist between sessions
 - All settings persist with the project
 
 ## Keyboard Shortcuts
@@ -46,6 +39,19 @@ https://github.com/del-paso/AdvancedChordGun
         ]]></description>
         <link rel="website">https://github.com/del-paso/AdvancedChordGun</link>
       </metadata>
+      <version name="2.0" author="del-paso" time="2026-04-19T00:00:00Z">
+        <changelog><![CDATA[
+v2.0:
+- Per-degree octave offset and inversion controls
+- Drag-and-drop chord assignment from grid to degree slots
+- 3-octave chord finder piano with individual key highlighting
+- Adjustable text size (S/M/L/XL) with +/- controls
+- Window size and position persist between sessions
+- Trail/Arp toggle overlap bug fixed
+- Clear button for chord finder redesigned as proper button
+        ]]></changelog>
+        <source main="main midi_editor">https://github.com/del-paso/AdvancedChordGun/raw/main/AdvancedChordGun.lua</source>
+      </version>
       <version name="1.0" author="del-paso" time="2026-04-11T00:00:00Z">
         <changelog><![CDATA[Initial release.]]></changelog>
         <source main="main midi_editor">https://github.com/del-paso/AdvancedChordGun/raw/main/AdvancedChordGun.lua</source>
