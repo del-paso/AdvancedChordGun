@@ -2,7 +2,7 @@
 
 An expanded chord composition tool for REAPER, inspired by Pandabot's ChordGun.
 
-![screenshot](screenshot.png)
+![screenshot](Screenshot.png)
 
 ## Installation
 
